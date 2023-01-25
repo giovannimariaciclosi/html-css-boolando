@@ -3,3 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ff6900;
+  color: white;
+  height: 80px;
+}
+
+.header-container ul {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  list-style-type: none;
+}
+
+.logo {
+  height: 30px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
