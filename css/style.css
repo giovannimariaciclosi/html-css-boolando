@@ -6,11 +6,17 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  padding-top: 100px;
 }
 
 /* header */
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
   background-color: #ff6900;
 }
 
